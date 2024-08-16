@@ -36,16 +36,15 @@ header nav ul li a {
 
 .hero {
     background: url('hero.jpg') no-repeat center center;
-    background-size: cover; /* Make sure the image covers the whole section */
-    min-height: 100vh; /* Set the height to at least the full viewport height */
+    background-size: contain; /* Ensure the whole image is visible */
+    height: 400px; /* Adjust the height to better fit the image */
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    background-color: #000; /* Add a background color to fill any extra space */
 }
 
 .hero h1 {
